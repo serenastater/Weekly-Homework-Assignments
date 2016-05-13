@@ -1,4 +1,5 @@
-#Assignments from Week 1, April 4 - April 8, 2016
+# Assignments from Week 1, Basic Ruby
+# April 4 - April 8, 2016
 
 # Sometimes Ruby methods will work both with or without parameters in slightly
 # different ways. Find the round method in the Ruby documentation. The
