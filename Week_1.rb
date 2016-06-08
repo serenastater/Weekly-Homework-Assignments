@@ -375,3 +375,28 @@ puts "The total is $#{'%.2f' %total.to_s}"
 #
 # Write code that displays which cats have hats and which cats do not at
 # the end of the 100th iteration.
+
+cats = []
+numbers = []
+n = 0
+100.times do
+  n += 1
+  cats << {cat:n, hat: "on"}
+  numbers << n
+end
+#puts cats
+#puts numbers
+i =1
+while i <= cats.length
+  for cat in cats
+    if cat[:cat] % i == 0
+      if cat[:hat] == "on"
+        cat[:hat] = "off"
+      else
+        cat[:hat] = "on"
+      end
+    end
+  end
+  i += 1
+end
+puts cats
